@@ -1,0 +1,29 @@
+{
+  "name": "test-cases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter mocha-simple-html-reporter --reporter-options output=./public/mocha.html",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vrajraj27/node-test-cases.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vrajraj27/node-test-cases/issues"
+  },
+  "homepage": "https://github.com/Vrajraj27/node-test-cases#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^2.0.1",
+    "express": "^4.21.2",
+    "mocha": "^2.4.5",
+    "mocha-simple-html-reporter": "^2.0.0",
+    "nodemon": "^3.1.9"
+  }
+}
